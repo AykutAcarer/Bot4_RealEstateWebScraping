@@ -336,7 +336,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ueab:ExcelForEachRowX>
-                    <ueab:FormatRangeX DisplayName="Format Zip Cells" sap:VirtualizedContainerService.HintSize="530,178" sap2010:WorkflowViewState.IdRef="FormatRangeX_1" Range="[Excel.Sheet(Location).Range(&quot;H:H&quot;)]">
+                    <ueab:FormatRangeX DisplayName="Format Zip Cells" sap:VirtualizedContainerService.HintSize="530,178" sap2010:WorkflowViewState.IdRef="FormatRangeX_1" Range="[Excel.Sheet(Location).Range(&quot;I:I&quot;)]">
                       <ueab:FormatRangeX.Alignment>
                         <ui:AlignmentOptions HorizontalAlignment="xlHAlignCenter" VerticalAlignment="xlVAlignCenter" WrapText="False" />
                       </ueab:FormatRangeX.Alignment>
