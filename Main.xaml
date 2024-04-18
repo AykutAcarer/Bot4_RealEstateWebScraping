@@ -301,8 +301,8 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <ueab:WriteCellX Cell="[CurrentRow(&quot;Street Address&quot;)]" DisplayName="Write Street Address" sap:VirtualizedContainerService.HintSize="434,199" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[CurrentRow(&quot;Address&quot;).ToString.Split(&quot;,&quot;c)(0)]" />
-                            <ueab:WriteCellX Cell="[CurrentRow(&quot;City&quot;)]" DisplayName="Write City" sap:VirtualizedContainerService.HintSize="434,199" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[CurrentRow(&quot;Address&quot;).ToString.Split(&quot;,&quot;c)(1)]" />
-                            <ueab:WriteCellX Cell="[CurrentRow(&quot;Zip&quot;)]" DisplayName="Write Zip" sap:VirtualizedContainerService.HintSize="434,182" sap2010:WorkflowViewState.IdRef="WriteCellX_3" Value="[CurrentRow(&quot;Address&quot;).ToString.Split(&quot;,&quot;c)(2)]" />
+                            <ueab:WriteCellX Cell="[CurrentRow(&quot;City&quot;)]" DisplayName="Write City" sap:VirtualizedContainerService.HintSize="434,199" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[CurrentRow(&quot;Address&quot;).ToString.Split(&quot;,&quot;c)(1).Trim]" />
+                            <ueab:WriteCellX Cell="[CurrentRow(&quot;Zip&quot;)]" DisplayName="Write Zip" sap:VirtualizedContainerService.HintSize="434,182" sap2010:WorkflowViewState.IdRef="WriteCellX_3" Value="[CurrentRow(&quot;Address&quot;).ToString.Split(&quot;,&quot;c)(2).Trim]" />
                           </Sequence>
                         </ActivityAction>
                       </ueab:ExcelForEachRowX.Body>
